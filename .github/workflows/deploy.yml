@@ -20,7 +20,7 @@ jobs:
         username: hybeeuser
         key: ${{ secrets.SSH_KEY }}
         source: "index.html"
-        target: "/var/www/html"
+        target: "/home/hybeeuser/myapp"
 
     - name: Restart Nginx Server
       uses: appleboy/ssh-action@v0.1.6
@@ -29,4 +29,5 @@ jobs:
         username: hybeeuser
         key: ${{ secrets.SSH_KEY }}
         script: |
+          sudo cp /home/hybeeuser/myapp/index.html /var/www/html/
           sudo systemctl restart nginx
