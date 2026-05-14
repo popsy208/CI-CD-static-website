@@ -13,7 +13,7 @@ This project showcases:
 
 ## 🌐 Live Demo
 
-👉 [View Live Website](https://yourusername.github.io/your-repository-name/)
+👉 [View Live Website](https://popsy208.github.io/Assignment-CI-CD/)
 
 ---
 
