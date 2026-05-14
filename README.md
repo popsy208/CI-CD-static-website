@@ -17,12 +17,6 @@ This project showcases:
 
 ---
 
-# 📸 Project Preview
-
-![Website Screenshot](./screenshots/homepage.png)
-
----
-
 # 🛠️ Tech Stack
 
 - HTML5
